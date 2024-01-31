@@ -121,13 +121,10 @@ const Signup = () => {
     
                     <div className="text-grey-dark mt-6">
                         Already have an account? 
-<<<<<<< HEAD
+
                         <Link className="no-underline border-b border-blue text-blue" to="/login">
-=======
-                        <a className="no-underline border-b border-blue text-blue" href="https://jobfinder-three.vercel.app/login">
->>>>>>> cb3a82509828f1f4e1578bab9f41c9592c2ac000
-                            Log in
-                        </a>
+                        login.</Link>
+                      
                     </div>
                 </div>
             </div>
