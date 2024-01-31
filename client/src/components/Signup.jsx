@@ -1,6 +1,6 @@
 import React, { useState ,useEffect} from 'react'
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import {useSelector,useDispatch} from 'react-redux';
 import {toast} from 'react-toastify'
 import { register,reset } from '../slices/authSlice';
@@ -121,9 +121,9 @@ const Signup = () => {
     
                     <div className="text-grey-dark mt-6">
                         Already have an account? 
-                        <a className="no-underline border-b border-blue text-blue" href="/login">
+                        <Link className="no-underline border-b border-blue text-blue" to="/login">
                             Log in
-                        </a>.
+                        </Link>
                     </div>
                 </div>
             </div>
