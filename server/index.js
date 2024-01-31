@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://jobfinder-three.vercel.app/",
     methods:["GET,PUT,PATCH,POST,DELETE"]
 }))
 app.use('/api/jobs',jobsrouter)
