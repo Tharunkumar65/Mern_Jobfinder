@@ -57,7 +57,7 @@ const onlogout =()=>{
               user ? (
 
               <div className='flex items-center gap-4 '>  
-                <h2 className='text-base text-primary font-semibold hidden lg:block'>{user.user?.name}</h2>
+                <h2 className='text-base text-primary font-semibold hidden lg:block'>{user?.name}</h2>
                <button className="py-2 px-4 border rounded mr-2" onClick={onlogout}>logout</button>
               </div>
              ):(<div className="text-base text-primary font-medium space-x-5 hidden lg:block" >
