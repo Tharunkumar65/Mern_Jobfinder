@@ -7,7 +7,6 @@ import SalaryEst from "../pages/SalaryEst";
 import Editjob from "../pages/Editjob";
 import Login from "../components/Login";
 import Signup from "../components/Signup";
-import Profile from "../components/profile";
 import JobDetails from "../pages/JobDetails";
 
 const router = createBrowserRouter([
@@ -48,10 +47,7 @@ const router = createBrowserRouter([
         path:"/sign-up",
         element:<Signup/>,
       },
-      {
-        path:'/profile',
-        element:<Profile/>
-      }
+     
     ]
   }
 ]);

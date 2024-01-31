@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5000/api/jobs/'
+const API_URL = 'https://mern-jobfinder.vercel.app/api/jobs/'
 
 
 // create a job
