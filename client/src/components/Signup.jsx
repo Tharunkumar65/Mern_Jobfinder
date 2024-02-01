@@ -122,7 +122,7 @@ const Signup = () => {
                     <div className="text-grey-dark mt-6">
                         Already have an account? 
 
-                        <a className="no-underline border-b border-blue text-blue" href="/login">
+                        <a className="no-underline border-b border-blue text-blue" href="./login">
                         login.</a>
                       
                     </div>
