@@ -24,7 +24,7 @@
 
 ## Project Outline
 
-1. Create Job Schema
+ 1. Create Job Schema
     Job(string)
     skills(Array)
     User(Object)
@@ -156,7 +156,9 @@ Now that your project is set up, you can deploy it to Vercel by selecting the De
  ```
 Vercel will start building and deploying your project. You can monitor the deployment progress in your terminal.
 
-Once the deployment is complete, Vercel will provide you with a unique URL where your project is live. You can access your deployed project by opening this URL in your web browser.
+Once the deployment is complete, Vercel will provide you with a unique URL where your project is live.
+
+You can access your deployed project by opening this URL in your web browser.
 
    
   
