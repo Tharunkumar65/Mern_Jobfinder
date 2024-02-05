@@ -1,11 +1,7 @@
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({
-     googleId: {
-          type: String,
-          unique: true,
-          sparse: true, // Allows null or duplicate values (useful for users who sign up with both Google and email/password)
-      },
+    
       email: {
           type: String,
           unique: true,
@@ -15,13 +11,8 @@ const UserSchema = new mongoose.Schema({
       },
       password: {
           type: String,
-          required: function() {
-              // Password is required only for email/password authentication
-              return this.googleId ? false : true;
-          },
+          required: true,
       },
-      displayName: String,
-      image:String,
       name:String,
       
 },{
