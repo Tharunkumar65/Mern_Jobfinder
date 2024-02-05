@@ -1,13 +1,13 @@
 # MERN CRUD Jobfinder App
 # [Live](https://jobfinder-app-gold.vercel.app/)
-### Front-End - React + Redux
+### Front-End - React(vite) + Redux
 ### Back-End - Node.js(Express.js) & MongoDB
 
 ## Tech Stack
 
 #### Front-end
 
-* The front-end client is built as a simple-page-application using React and Redux (for middlewares and reducers).
+* The front-end client is built as a simple-page-application using React and Redux (for middlewares and reducers),vite as frontend tooling.
 * React-Router is used for navigation.
 * Redux-Thunk is used for processing asynchronous requests.
 * Tailwind CSS is used for page styling.
