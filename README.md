@@ -24,27 +24,29 @@
 
 ## Project Outline
 
- 1. Create Job Schema
-    Job(string)
-    skills(Array)
-    User(Object)
+    1. Create Job Schema
+             Job(string)
+             skills(Array)
+             User(Object)
+   
+    2. Create User Schema
+             name(string)
+             email(string)
+             password(string)
+  
+   3.Signup/login/logout User
 
-2. Create User Schema
-    name(string)
-    email(string)
-    password(string)
+   4.filter the jobs by jobTitle,location,Salary,employmentType,Work experience
 
-3.Signup/login/logout User
+   5.view jobs without login
 
-4.filter the jobs by jobTitle,location,Salary,employmentType,Work experience
+   6.view your jobs with login
 
-5.view jobs without login
+   7.post Your jobs with login
 
-6.view your jobs with login
+   8.Update and Delete yours jobs with login
 
-7.post Your jobs with login
-
-8.Update and Delete yours jobs with login
+   
 
 ## Set-Up Project in your machine
 
