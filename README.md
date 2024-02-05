@@ -22,30 +22,30 @@
 * MongoDB is used as the back-end database, which include different data models/schemas (i.e., User, Job).
 * Mongoose is used to access the MongoDB for CRUD actions (create, read, update and delete).
 
+
 ## Project Outline
 
-    1. Create Job Schema
-             Job(string)
-             skills(Array)
-             User(Object)
-   
-    2. Create User Schema
-             name(string)
-             email(string)
-             password(string)
-  
-   3.Signup/login/logout User
+1. Create Job Schema
+     Job(String)
+     skills(Array)
+     User(Object)
 
-   4.filter the jobs by jobTitle,location,Salary,employmentType,Work experience
+2. Create User Schema
+     name(String)
+     email(String)
+     password(String)
 
-   5.view jobs without login
+3. Signup/login/logout User
 
-   6.view your jobs with login
+4. filter the jobs by jobTitle,location,Salary,employmentType,Work experience
 
-   7.post Your jobs with login
+5. view jobs without login
 
-   8.Update and Delete yours jobs with login
+6. view your jobs with login
 
+7. post Your jobs with login
+
+8. Update and Delete yours jobs with login
    
 
 ## Set-Up Project in your machine
